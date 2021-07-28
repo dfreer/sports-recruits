@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1b1f4e;
+    color: #444;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+header {
+    width: 50%;
+    margin: 2em auto;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+
+.card-header {
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-footer {
+    padding: 1em;
+    border-top: 1px solid #ccc;
+    color: #ccc;
+}
+
+.card-header h3 {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #CE4B27;
+    padding-right: .25em;
+}
+
+.card-header span {
+    color: #888;
+    white-space: nowrap;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+table {
+    width: 100%;
+}
+
+table td,
+table th {
+    padding: .5em .25em;
+}
+
+table thead tr {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #efefef;
+}
+
+p {
+    line-height: 1.6
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color .4s ease;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+a.active {
+    color: #CE4B27;
+    pointer-events: none;
+    transition: color .4s ease;
+}
+
+.notification {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.notification.is-danger {
+    color: #CE4B27;
+}
